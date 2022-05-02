@@ -1,2 +1,2 @@
-# ng-upload
-A upload component with Angular
+# devrmartins-angular-library
+A Component Library with Angular
