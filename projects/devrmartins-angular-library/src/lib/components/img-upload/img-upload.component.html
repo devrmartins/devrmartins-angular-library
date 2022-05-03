@@ -1,0 +1,9 @@
+<div id="dvrm-img-upload" [ngClass]="{'not-empty': file}">
+  <label for="file">
+    <div class="content">
+      <img src="{{fileBase64}}" />
+      <p>{{ title }}</p>
+    </div>
+  </label>
+  <input id="file" accept="image/*" name="file" type="file" (change)="change($event)" />
+</div>
